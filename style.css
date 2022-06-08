@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+body {
+    background-color: hsl(0, 0%, 81%);
+}
+
+.gridContainer {
+    display: grid;
+    margin: 200px;
+    height: 45vh;
+    width: 50%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1px 1px;
+    font-family: 'Karla', sans-serif;
+}
+
+.upperBox {
+    grid-area: 1 / 1 /2 /3;
+    background-color: white;
+    padding: 15px;
+}
+
+.boxInner1 {
+    grid-area: 2 / 1 /3 /2;
+    text-align: center;
+}
+
+.boxInner2 {
+    grid-area: 2 / 2 /3 /3;
+    text-align: center;
+}
+
+.lowerInnerBox {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+}
+
+.signUpButton {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    margin: 30px;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.signUpButton>a {
+    text-decoration: none;
+}
+
+.lowerText {
+    font-size: 16px;
+}
+
+.lowerInnerBox>p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.price {
+    font-size: 30px;
+}
+
+.joinText {
+    color: hsl(179, 62%, 43%);
+    font-size: 30px;
+}
+
+.day30 {
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+}
